@@ -98,7 +98,7 @@ chatbotz/
 
 ## 💡 **Key Technologies**
 
-- **OpenAI API**: GPT-3.5 Turbo for conversational intelligence.
+- **OpenAI API**: GPT-3.5 Turbo for conversational intelligence and... speeed!
 - **Python**: Primary programming language.
 - **Backoff**: For handling API rate limits gracefully.
 - **Dotenv**: Secure management of API keys and environment variables.
