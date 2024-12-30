@@ -1,6 +1,5 @@
-# Chatbotz: Conversational AI with Personality
+# Chatbot Congress!: Conversational AI with Personality
 
-![Chatbotz Banner] 
 *Where cutting-edge AI meets the art of human interaction.*
 
 ---
@@ -27,15 +26,12 @@
 
 1. **Broad Shoulders (Plato)**  
    The philosophical thinker who dives deep into abstract concepts and big-picture ideas.  
-   ![Plato Avatar](https://via.placeholder.com/200x200.png?text=Plato)
-
+   
 2. **Cicero**  
    The orator and statesman, known for persuasive arguments and logical reasoning.  
-   ![Cicero Avatar](https://via.placeholder.com/200x200.png?text=Cicero)
-
+   
 3. **Omnibus**  
    The polymathic guide, offering diverse insights across multiple domains.  
-   ![Omnibus Avatar](https://via.placeholder.com/200x200.png?text=Omnibus)
 
 ---
 
@@ -45,29 +41,6 @@
 Each chatbot is created using the `Chatbotz` class, which allows you to:
 - Define a name for the bot.
 - Provide a system prompt to shape its responses.
-
-```python
-Plato = Chatbotz("Plato", "A philosopher who explores the nature of reality and ideas.")
-```
-
-### 2. **Chatbot Interactions**
-The `chatbot_interaction` function facilitates conversations between multiple chatbots or a chatbot and a user. Specify the number of turns and watch the dialogue unfold!
-
-```python
-chatbot_interaction(
-    [Plato, Cicero, Omnibus],
-    initial_message="Let's discuss the evolution of storytelling through history."
-)
-```
-
-### 3. **Custom Prompts**
-System prompts are loaded from external files, allowing easy customization of chatbot behavior.
-
-```python
-def load_prompt(file_path: str) -> str:
-    with open(file_path, "r") as file:
-        return file.read()
-```
 
 ---
 
@@ -141,13 +114,6 @@ chatbotz/
 
 ---
 
-## 📷 **Screenshots**
-
-![Chatbots in Action](https://via.placeholder.com/800x400.png?text=Chatbot+Interaction+Screenshot)
-*Dynamic and engaging interactions between chatbots.*
-
----
-
 ## 🤝 **Contributing**
 
 Contributions are welcome! Feel free to fork the repo, create a branch, and submit a pull request. Let’s make Chatbotz even better together!
@@ -158,15 +124,4 @@ Contributions are welcome! Feel free to fork the repo, create a branch, and subm
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
----
-
-## 🙌 **Acknowledgments**
-
-- **OpenAI** for providing state-of-the-art APIs.
-- **Inspiration** from historical figures who shaped human thought.
-- **Community** support for bringing this project to life.
-
----
-
-![Footer Image](https://via.placeholder.com/1200x100.png?text=Thank+you+for+exploring+Chatbotz!)
 
