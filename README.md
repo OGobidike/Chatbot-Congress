@@ -24,7 +24,7 @@
 
 ### Meet the Stars:
 
-1. **Broad Shoulders (Plato)**  
+1. **Mr.Broad Shoulders (Plato, if yk,yk)**  
    The philosophical thinker who dives deep into abstract concepts and big-picture ideas.  
    
 2. **Cicero**  
